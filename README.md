@@ -22,7 +22,7 @@ To test that your installation is working, run the following code (the first tim
 
 ```julia
 using JuMP, Cbc
-m = Model(solve=CbcSolver())
+m = Model(solver=CbcSolver())
 @variable(m, x >= 0, Int)
 @variable(m, y >= 0)
 @constraint(m, 2x + y <= 1)
