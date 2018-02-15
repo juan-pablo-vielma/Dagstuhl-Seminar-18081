@@ -135,6 +135,22 @@ To make [Gurobi](http://www.gurobi.com) available to JuMP run the following code
 Pkg.add("Gurobi")
 ```
 
+## Install IJulia and Jupyter
+
+[Jupyter](http://jupyter.org) is a convenient notebook-based interface to present documents which interleave code, text, and equations. Example code will be available both in notebook and text-file format so Jupyter is not required for the demonstration.
+
+To install Jupyter and the Julia backend [IJulia](https://github.com/JuliaLang/IJulia.jl) run the following code:
+```julia
+ENV["JUPYTER"]=""
+Pkg.add("IJulia")
+```
+
+To start Jupyter run the following code:
+```julia
+using IJulia
+notebook()
+```
+
 ## More resources
 
 We will not have the time to go through all of the basic syntax points of Julia. For more materials on learning Julia,
