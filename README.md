@@ -102,6 +102,7 @@ Pkg.add("Mosek")
 ```
 To install Mosek in Mac run the following code (there is a small [bug-fix](https://github.com/JuliaOpt/Mosek.jl/issues/134) not yet in the release version):
 ```julia
+Pkg.add("Mosek")
 Pkg.checkout("Mosek","b0.8")
 Pkg.build("Mosek")
 ```
