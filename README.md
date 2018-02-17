@@ -165,4 +165,10 @@ using PyPlot
 ## More resources
 
 We will not have the time to go through all of the basic syntax points of Julia. For more materials on learning Julia,
-see [here](http://julialang.org/learning/). The JuMP documentation is located [here](http://www.juliaopt.org/JuMP.jl/0.18/).
+see [here](http://julialang.org/learning/). 
+
+In particular, a good updated introduction to Julia is [David Sanders'](http://sistemas.fciencias.unam.mx/~dsanders/) Julia v0.6 [tutorial](https://github.com/dpsanders/julia_towards_1.0).
+
+The JuMP documentation is located [here](http://www.juliaopt.org/JuMP.jl/0.18/).
+
+
