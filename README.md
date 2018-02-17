@@ -45,7 +45,7 @@ For visualization we will use the [Plots](https://github.com/JuliaPlots/Plots.jl
 Pkg.add("Plots")
 ```
 
-## Install Visualization Package
+## Install PiecewiseLinearOpt Package
 
 One of our demonstrations will use advanced mixed integer programming (MIP) formulations for piecewise linear functions. These can be easily accessed through the [PiecewiseLinearOpt](https://github.com/joehuchette/PiecewiseLinearOpt.jl) package, which can be installed by running:
 ```julia
@@ -149,6 +149,17 @@ To start Jupyter run the following code:
 ```julia
 using IJulia
 notebook()
+```
+
+## Install PyPlot Package
+
+For animated graphics you will also need [PyPlot](https://github.com/JuliaPy/PyPlot.jl).
+
+To install PyPlot run the following code:
+```julia
+Pkg.add("PyPlot")
+using Conda; Conda.add("basemap")
+using PyPlot
 ```
 
 ## More resources
