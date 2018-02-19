@@ -157,6 +157,7 @@ For animated graphics you will also need [PyPlot](https://github.com/JuliaPy/PyP
 
 To install PyPlot run the following code:
 ```julia
+ENV["PYTHON"]=""
 Pkg.add("PyPlot")
 using Conda; Conda.add("basemap")
 using PyPlot
@@ -171,4 +172,5 @@ In particular, a good updated introduction to Julia is [David Sanders'](http://s
 
 The JuMP documentation is located [here](http://www.juliaopt.org/JuMP.jl/0.18/).
 
+The polynomial optimal control example was developed by [Joey Huchette](http://www.mit.edu/~huchette/) for the 2017 SIAM Conference on Optimization. For more details on this problem you can find Joey's SIAM Opt slides  [here](https://docs.google.com/presentation/d/1ASfjB1TdLJmYxT0b6rnyGh9eLbMc-66bTOt3_3yvc90/edit?usp=sharing).
 
